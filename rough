@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Vision and Mission</title>
+  <title>Contact Us</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -9,15 +9,18 @@
   <div class="sidebar">
     <a href="about.html">About Us</a>
     <a href="departments.html">Departments</a>
-    <a href="vision.html" class="active">Vision and Mission</a>
-    <a href="contact.html">Contact Us</a>
+    <a href="vision.html">Vision and Mission</a>
+    <a href="contact.html" class="active">Contact Us</a>
   </div>
 
   <div class="content">
-    <h2>Vision and Mission</h2>
-    <p><strong>Vision:</strong> To be a centre of excellence in engineering education and research.</p>
-    <p><strong>Mission:</strong> To impart quality education and promote innovation, creativity, and leadership
-       among students to serve society and the nation.</p>
+    <h2>Contact Us</h2>
+    <p>
+      Rajiv Gandhi Institute of Technology<br>
+      Pampady, Kottayam, Kerala - 686501<br>
+      Email: info@rit.ac.in<br>
+      Phone: +91-481-2507763
+    </p>
   </div>
 
 </body>
