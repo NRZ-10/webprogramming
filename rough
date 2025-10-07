@@ -1,27 +1,45 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Contact Us</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
+body {
+  margin: 0;
+  font-family: 'Times New Roman', serif;
+}
 
-  <div class="sidebar">
-    <a href="about.html">About Us</a>
-    <a href="departments.html">Departments</a>
-    <a href="vision.html">Vision and Mission</a>
-    <a href="contact.html" class="active">Contact Us</a>
-  </div>
+/* Sidebar styling */
+.sidebar {
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  background-color: green;
+  padding-top: 20px;
+}
 
-  <div class="content">
-    <h2>Contact Us</h2>
-    <p>
-      Rajiv Gandhi Institute of Technology<br>
-      Pampady, Kottayam, Kerala - 686501<br>
-      Email: info@rit.ac.in<br>
-      Phone: +91-481-2507763
-    </p>
-  </div>
+.sidebar a {
+  display: block;
+  color: white;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 16px;
+}
 
-</body>
-</html>
+.sidebar a:hover {
+  background-color: #004d00;
+}
+
+.sidebar a.active {
+  color: red;
+}
+
+/* Content section */
+.content {
+  margin-left: 220px;
+  padding: 20px;
+}
+
+.content h2 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.content p {
+  text-align: justify;
+  font-size: 15px;
+}
