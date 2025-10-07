@@ -1,27 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>About Us</title>
+  <title>Departments</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <div class="sidebar">
-    <a href="about.html" class="active">About Us</a>
-    <a href="departments.html">Departments</a>
+    <a href="about.html">About Us</a>
+    <a href="departments.html" class="active">Departments</a>
     <a href="vision.html">Vision and Mission</a>
     <a href="contact.html">Contact Us</a>
   </div>
 
   <div class="content">
-    <h2>About Us</h2>
+    <h2>Departments</h2>
     <p>
-      Rajiv Gandhi Institute of Technology, named after the late Prime Minister Sri Rajiv Gandhi,
-      run by the Government of Kerala, started functioning in 1991. It has established a vast infrastructure
-      and put together a team of dedicated faculty and staff, creating an excellent environment for academic excellence in Kerala.
+      The institute offers undergraduate and postgraduate programs in various engineering disciplines such as
+      Computer Science, Electronics, Electrical, Mechanical, and Civil Engineering. Each department is equipped with
+      modern laboratories, research facilities, and experienced faculty.
     </p>
   </div>
 
 </body>
 </html>
-
