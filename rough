@@ -1,25 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Departments</title>
+  <title>Vision and Mission</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <div class="sidebar">
     <a href="about.html">About Us</a>
-    <a href="departments.html" class="active">Departments</a>
-    <a href="vision.html">Vision and Mission</a>
+    <a href="departments.html">Departments</a>
+    <a href="vision.html" class="active">Vision and Mission</a>
     <a href="contact.html">Contact Us</a>
   </div>
 
   <div class="content">
-    <h2>Departments</h2>
-    <p>
-      The institute offers undergraduate and postgraduate programs in various engineering disciplines such as
-      Computer Science, Electronics, Electrical, Mechanical, and Civil Engineering. Each department is equipped with
-      modern laboratories, research facilities, and experienced faculty.
-    </p>
+    <h2>Vision and Mission</h2>
+    <p><strong>Vision:</strong> To be a centre of excellence in engineering education and research.</p>
+    <p><strong>Mission:</strong> To impart quality education and promote innovation, creativity, and leadership
+       among students to serve society and the nation.</p>
   </div>
 
 </body>
