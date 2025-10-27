@@ -1,0 +1,15 @@
+*{
+   font-size:20px;
+}
+p{
+   color:blue;
+   background-color:red;
+}
+#id{
+    color:red;
+     background-color:black;
+}
+.class{
+    color:brown;
+    background-color:cyan;
+}
