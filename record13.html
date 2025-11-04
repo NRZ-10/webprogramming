@@ -1,0 +1,53 @@
+<DOCTYPE html>
+<head><title>BULB</title>
+<style>
+body{
+background-color:black;
+text-align:center;
+margin-top:100px;
+}
+
+img{
+width:150px;
+height:auto;
+}
+
+button{
+background-color:orange;
+color:white;
+border:none;
+padding:10px 100px;
+margin:10px;
+border-radius:200px;
+cursor:pointer;
+font-size:16px;
+}
+
+button:hover{
+background-color:darkorange:
+}
+
+</style>
+</head>
+<body>
+
+<img id="bulb" src="https://www.w3schools.com/js/pic_bulboff.gif" alt="Bulb">
+
+<br>
+
+<button onclick="turnOn()">Turn ON</button>
+<button onclick="turnOff()">Turn OFF</button>
+
+<script>
+
+function turnOn() {
+document.getElementById("bulb").src="https://www.w3schools.com/js/pic_bulbon.gif";
+}
+
+function turnOff() {
+document.getElementById("bulb").src="https://www.w3schools.com/js/pic_bulboff.gif";
+}
+
+</script>
+</body>
+</html>
